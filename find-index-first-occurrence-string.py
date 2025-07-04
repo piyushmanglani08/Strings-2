@@ -3,8 +3,6 @@ Robin Karp Implementation
 Time - O(n * m)
 Space - O(1)
 """
-
-
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         n, m = len(haystack), len(needle)
